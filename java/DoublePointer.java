@@ -14,7 +14,7 @@ public class DoublePointer {
      *
      * 如果两个指针指向元素的和 sum == target，那么得到要求的结果；
      * 如果 sum > target，移动较大的元素，使 sum 变小一些；
-     * 如果 sum < target，移动较小的元素，使 sum 变大一些
+     * 如果 sum < target，移动较小的元素，使 sum 变大一些.
      * @param numbers
      * @param target
      * @return
