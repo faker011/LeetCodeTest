@@ -2,6 +2,10 @@ package leet;
 
 public class Test2 {
     // 中位数 https://blog.csdn.net/qq_41014682/article/details/79812181
+    // A: A[0] A[1] A[2]...... A[j-2] | A[j-1] ....A[m-3] A[m-2] A[m-1] j-1 | j+1
+    //
+    // B: B[0] B[1] B[2]....... B[i] | B[i+1].....B[n-3] B[n-2] B[n-1] i+1 | i-1
+
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
          int m = nums1.length;
          int n = nums2.length;
